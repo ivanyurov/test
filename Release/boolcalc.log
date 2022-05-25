@@ -1,0 +1,29 @@
+﻿  boolcalc.cpp
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(99,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(105,15): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(110,17): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(128,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(135,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(140,26): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(144,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(157,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(179,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(185,15): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(190,17): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(208,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(215,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(220,27): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(224,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.h(237,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolcalc.cpp(30,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolcalc.cpp(61,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolcalc.cpp(87,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolcalc.cpp(113,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolcalc.cpp(133,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода
+C:\Users\ivany\source\repos\boolcalc\boolcalc\boolexpr.cpp(36): warning C4715: StrToInt: значение возвращается не при всех путях выполнения
+  32 of 519 functions ( 6.2%) were compiled, the rest were copied from previous compilation.
+    8 functions were new in current compilation
+    23 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  boolcalc.vcxproj -> C:\Users\ivany\source\repos\boolcalc\Release\boolcalc.exe
