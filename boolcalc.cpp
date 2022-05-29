@@ -169,7 +169,7 @@ int main(int argc, const char* argv[])
 	else if ((argv[1][0] == '?') || (argv[1][1] == 'h'))
 	{
 	std::cout << "-calc input output - calculates values of expressions in file\n\n";
-	std::cout << "-cnf input output - prints CNFs of expressions in file\n\n";
+	std::cout << "-cnf input outp  ut - prints CNFs of expressions in file\n\n";
 	std::cout << "-dnf input output - prints DNFs of expressions in file\n\n";
 	std::cout << "-zh input output - prints zhegalkin's polynomials of expressions in file\n\n";
 	std::cout << "-table input - prints truth tables of expressions in cmd\n\n";
