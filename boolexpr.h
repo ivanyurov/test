@@ -15,14 +15,14 @@ public:
 	{
 		value_ = value;
 	}
-	bool_& operator&(const bool_& x)  // logical and
+	bool_ operator&(const bool_& x)  // logical and
 	{
 		bool_ tmp;
 		if ((this->getValue() == x.getValue()) && (x.getValue() == 1)) {}
 		else { tmp.value_ = 0; }
 		return tmp;
 	}
-	bool_& operator-(const bool_& x)  // logical or
+	bool_ operator-(const bool_& x)  // logical or
 	{
 		bool_ tmp;
 		if ((this->getValue() == x.getValue()) && (x.getValue() == 0)) { tmp.value_ = 0; }
@@ -34,35 +34,35 @@ public:
 		this->value_ = !value_;
 		return *this;
 	}
-	bool_& operator>(const bool_& x)  //implication
+	bool_ operator>(const bool_& x)  //implication
 	{
 		bool_ tmp;
-		if (this->getValue() <= x.getValue()) {}
+		if (this->getValue() >= x.getValue()) {}
 		else { tmp.value_ = 0; }
 		return tmp;
 	}
-	bool_& operator<(const bool_& x)  //back implication
+	bool_ operator<(const bool_& x)  //back implication
 	{
 		bool_ tmp;
-		if (x.getValue() <= this->getValue()) {}
+		if (x.getValue() >= this->getValue()) {}
 		else { tmp.value_ = 0; }
 		return tmp;
 	}
-	bool_& operator+(const bool_& x)  // exclusive or
+	bool_ operator+(const bool_& x)  // exclusive or
 	{
 		bool_ tmp;
 		if (x.value_ != this->value_) {}
 		else { tmp.value_ = 0; }
 		return tmp;
 	}
-	bool_& operator|(const bool_& x)  //Scheffer's stroke
+	bool_ operator|(const bool_& x)  //Scheffer's stroke
 	{
 		bool_ tmp;
 		if ((this->value_ == x.value_) && (x.value_ == 0)) {}
 		else { tmp.value_ = 0; }
 		return tmp;
 	}
-	bool_& operator^(const bool_& x)  //Pierce arrow
+	bool_ operator^(const bool_& x)  //Pierce arrow
 	{
 		bool_ tmp;
 		if ((this->getValue() == x.getValue()) &&  (x.getValue() == 0)) {}
